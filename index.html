@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Tarjeta Digital - GERB</title>
+    <link rel="shortcut icon" href="imagenes/gerbdevSinfondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>este es un ejemplo de como subir github</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam exercitationem enim veritatis! Tempora sequi, ea quis inventore nobis eaque earum. Repellat adipisci voluptatem illum harum! Autem eveniet illo quo voluptate.</p>
-</body>
+   <main class="container">
+    <section class="business-card">
+        <!-- esta es la parte del encabezado de la tarjeta -->
+        <header class="header">
+            <figure class="profile">
+                <img src="imagenes/foto.jpg" 
+                         alt="Foto de perfil" 
+                         class="profile__image">
+                <figcaption class="profile__info">
+                        <h1 class="profile__name">Giovanni Ramirez Berrocal</h1>
+                        <p class="profile__title">Desarrollador Web en Formación</p>
+                </figcaption>
+            </figure>
+        </header>
+        <!-- esta es la parte de cuerpo de la tarjeta que le llaremos Content -->
+         <section class="content">
+            <section class="contact">
+                <h2 class="contact__heading">Contacto</h2>
+                <div class="contact__list">
+                     <span class="contact__label">Email:</span>
+                     <span class="contact__value">ramirezberrocalgiovanni@gmail.com</span>
+                </div>
+                <div class="contact__item">
+                    <span class="contact__label">Teléfono:</span>
+                    <span class="contact__value">+51 956 785 457</span>
+                </div>
+                <div class="contact__item">
+                    <span class="contact__label">Ubicación:</span>
+                    <span class="contact__value">Lima, Perú</span>
+                </div>
+            </section>
+            <section class="skills">
+                h2 class="skills__heading">Habilidades</h2>
+                <div class="skills__grid">
+                    <span class="skill-badge skill-badge--html">HTML5</span>
+                    <span class="skill-badge skill-badge--css">CSS3</span>
+                    <span class="skill-badge skill-badge--git">Git</span>
+                </div>
+            </section>
+         </section>
+         <!-- se creara el footer -->
+        <footer class="footer">
+            <p class="footer__quote">
+                "Construyendo el futuro, una línea de código a la vez"
+            </p>
+        </footer>
+    </section>
+   </main>
 </html>
